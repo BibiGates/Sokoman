@@ -1,0 +1,5 @@
+res_x:900
+res_y:675
+index_act_res:0
+nb_niv:11
+act_niv_base:0
