@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['__main__.py'],
-             pathex=['/home/hereng/Documents/old_projects/Sokoban'],
+             pathex=['/home/hereng/Documents/old_projects/Sokoman/src'],
              binaries=[],
              datas=[('*.txt', '.'), ('polices/*', 'polices'), ('musiques/*', 'musiques'), ('images/*', 'images')],
              hiddenimports=[],
@@ -22,7 +22,7 @@ exe = EXE(pyz,
           a.scripts,
           [],
           exclude_binaries=True,
-          name='__main__',
+          name='Sokoman',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
@@ -35,4 +35,4 @@ coll = COLLECT(exe,
                strip=False,
                upx=True,
                upx_exclude=[],
-               name='__main__')
+               name='Sokoman')
